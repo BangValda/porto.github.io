@@ -1,0 +1,154 @@
+
+.profile {
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: #EEEEEE;
+    margin-top: 35px;
+}
+.profile-pict {
+    border-radius:500px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.about {
+    margin: 50px;
+}
+
+button {
+   background-color: #508C9B;
+   border: none;
+   height: 50px;
+   width: 500px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 100px;
+   margin: 10px;
+   
+}
+
+.link {
+    display: grid;
+    place-items: center;
+
+}
+
+button {
+    color: #EEEEEE;
+    font-weight: bold;
+}
+
+body {
+    /* background-image: url('https://drive.google.com/thumbnail?id=1xNe8UMe9daeVAGp8QrzeypmWXMD2UQ8M'); */
+    background-color: #134B70;
+    margin: 0px;
+    background-size: cover;
+    font-family: 'Poppins';
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* .container {
+    background-color: grey;
+    width: 50%;
+} */
+
+.img1 img {
+    height: 500px;
+    padding: 50px;
+    margin-top: 75px;
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.img2 img {
+    height: 200px;
+    padding: 50px;
+    margin-top: 75px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201E43;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.footer {
+    background-color: #201E43;;
+    width:  100%;
+    height: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #134B70; /* Warna berubah saat hover */
+}
+

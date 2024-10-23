@@ -1,0 +1,153 @@
+body {
+    background-color: #134B70;
+}
+.all {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    height: 1400px;
+    background-size: cover;
+}
+.info {
+    display: flex;
+    padding-left: 200px;
+    
+}
+
+.pp {
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 50px;
+}
+
+
+.data {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+table{
+    height: 50%;
+    width: 120%;
+}
+
+.profile {
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.paragraph {
+    text-align: left;
+    margin-right: 200px;
+}
+
+.dataname {
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.icopro {
+    height: 50px;
+    margin-left: 70px;
+
+}
+
+.waktu {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.tahun {
+    display: flex;
+    margin-left: 430px;
+    gap: 50px;
+}
+
+.where {
+    margin-top: 20px;
+}
+
+.titik {
+    margin-left: 45px;
+}
+
+
+/* font */
+body {
+    font-family: "poppins";
+    margin: 0;
+}
+
+.icoso {
+    height: 25px;
+}
+
+a {
+    margin-top: 100px;
+}
+
+.icon {
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.social {
+    display: flex;
+}
+
+.tr {
+    padding-left: 1000px;
+}
+
+.kotak {
+    width: 750px;
+    height: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: #1E2A5E;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201E43;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
